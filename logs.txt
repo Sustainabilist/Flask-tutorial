@@ -1,0 +1,209 @@
+2016-06-02T18:16:58.430714+00:00 heroku[api]: Release v2 created by jason@sustainabilist.com
+2016-06-02T18:16:58.430665+00:00 heroku[api]: Enable Logplex by jason@sustainabilist.com
+2016-06-02T20:43:01.872958+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Python app
+2016-06-02T20:43:01.872952+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-02T20:48:17.601419+00:00 heroku[api]: Release v3 created by jason@sustainabilist.com
+2016-06-02T20:48:17.601272+00:00 heroku[api]: Set BUILDPACK_URL config vars by jason@sustainabilist.com
+2016-06-02T20:48:38.842990+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-02T20:48:38.842998+00:00 heroku[slug-compiler]: Slug compilation failed: failed to compile Python/Conda app
+2016-06-02T20:57:36.664243+00:00 heroku[api]: Release v4 created by jason@sustainabilist.com
+2016-06-02T20:57:36.664181+00:00 heroku[api]: Set BUILDPACK_URL config vars by jason@sustainabilist.com
+2016-06-02T20:58:15.803943+00:00 heroku[api]: Release v5 created by jason@sustainabilist.com
+2016-06-02T20:58:15.803810+00:00 heroku[api]: Set CONDA_DEFAULT_ENV, PATH config vars by jason@sustainabilist.com
+2016-06-02T20:58:16.436901+00:00 heroku[slug-compiler]: Slug compilation started
+2016-06-02T20:58:16.436909+00:00 heroku[slug-compiler]: Slug compilation finished
+2016-06-02T20:58:16.185297+00:00 heroku[api]: Deploy ede2224 by jason@sustainabilist.com
+2016-06-02T20:58:16.185390+00:00 heroku[api]: Release v6 created by jason@sustainabilist.com
+2016-06-02T20:58:16.184739+00:00 heroku[api]: Scale to web=1 by jason@sustainabilist.com
+2016-06-02T20:58:19.460470+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-02T20:58:21.190440+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-02T20:58:22.110041+00:00 heroku[web.1]: Process exited with status 127
+2016-06-02T20:58:22.131346+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-02T20:58:22.132488+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-02T20:58:26.015823+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-02T20:58:27.878084+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-02T20:58:28.660012+00:00 heroku[web.1]: Process exited with status 127
+2016-06-02T20:58:28.674951+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-02T20:58:55.361792+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=6d946336-1abc-4c98-8ea3-d14f14c7b5cb fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T20:58:56.560655+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=6b93723f-e3f6-47d9-a783-590c4f796250 fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T20:59:02.081827+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=a5365eb9-53d4-4429-9d38-8c174fc40103 fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T20:59:02.752489+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=af21234b-1879-48cd-aef8-a1b938adbf26 fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T20:59:05.686693+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=d8f2d1e4-3de6-4a32-9b58-9e8dfb12cc1a fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T20:59:06.147842+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=34d85996-74e3-4a65-8b5b-ba058bd88815 fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T20:59:10.782304+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/Jason" host=wordcount-staging-jt.herokuapp.com request_id=9f188ded-3baa-4ace-930f-b81bdfbc4659 fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T20:59:11.185492+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=7d4d1dd8-d519-4494-93d4-7dfa90b3d2db fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T20:59:34.199902+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/Jason" host=wordcount-staging-jt.herokuapp.com request_id=2b51c493-5896-4516-a90e-c2ee30690f42 fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T20:59:34.954897+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=f428de51-7acb-4be2-9c92-bd2f6925beb6 fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T21:00:45.350059+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/Jason" host=wordcount-staging-jt.herokuapp.com request_id=c6b8fd79-4411-4c99-a686-f90371d89697 fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T21:00:46.121089+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=146c6704-671b-41ae-9231-6a7c0768a3cc fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T21:02:30.567786+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/Jason" host=wordcount-staging-jt.herokuapp.com request_id=6fb8a118-295a-440e-a641-52c7b51895af fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T21:02:31.314320+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=40948394-307b-48cc-9b72-cc4e28fc5921 fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T21:03:32.248910+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=0ac3f1ce-f9e0-4258-ac00-f38e0a6820da fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T21:03:33.373267+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=155e6b27-dd70-4cdd-afc8-1286e6d656c6 fwd="24.6.1.171" dyno= connect= service= status=503 bytes=
+2016-06-02T21:10:27.130181+00:00 heroku[api]: Starting process with command `python` by jason@sustainabilist.com
+2016-06-02T21:10:32.110356+00:00 heroku[run.5267]: Awaiting client
+2016-06-02T21:10:32.131263+00:00 heroku[run.5267]: Starting process with command `python`
+2016-06-02T21:10:32.390171+00:00 heroku[run.5267]: State changed from starting to up
+2016-06-02T21:11:21.755818+00:00 heroku[run.5267]: Process exited with status 0
+2016-06-02T21:11:21.773960+00:00 heroku[run.5267]: State changed from up to complete
+2016-06-02T21:11:43.081267+00:00 heroku[api]: Starting process with command `COMMAND` by jason@sustainabilist.com
+2016-06-02T21:11:46.926094+00:00 heroku[run.8587]: Awaiting client
+2016-06-02T21:11:46.948964+00:00 heroku[run.8587]: Starting process with command `COMMAND`
+2016-06-02T21:11:47.148604+00:00 heroku[run.8587]: State changed from starting to up
+2016-06-02T21:11:49.639541+00:00 heroku[run.8587]: Process exited with status 127
+2016-06-02T21:11:49.660902+00:00 heroku[run.8587]: State changed from up to complete
+2016-06-02T21:11:55.891929+00:00 heroku[api]: Starting process with command `bash` by jason@sustainabilist.com
+2016-06-02T21:12:00.696534+00:00 heroku[run.2031]: Awaiting client
+2016-06-02T21:12:00.731378+00:00 heroku[run.2031]: Starting process with command `bash`
+2016-06-02T21:12:00.825300+00:00 heroku[run.2031]: State changed from starting to up
+2016-06-02T21:13:01.810660+00:00 heroku[run.2031]: Process exited with status 127
+2016-06-02T21:13:01.834302+00:00 heroku[run.2031]: State changed from up to complete
+2016-06-02T21:24:15.725894+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-02T21:24:19.398676+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-02T21:24:21.559213+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-02T21:24:22.503572+00:00 heroku[web.1]: Process exited with status 127
+2016-06-02T21:24:22.523799+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-02T22:07:21.331108+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-02T22:07:25.545026+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-02T22:07:27.592542+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-02T22:07:28.562322+00:00 heroku[web.1]: Process exited with status 127
+2016-06-02T22:07:28.579408+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-02T23:44:59.501215+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-02T23:45:02.866094+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-02T23:45:03.945423+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-02T23:45:04.591827+00:00 heroku[web.1]: Process exited with status 127
+2016-06-02T23:45:04.607781+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-03T02:28:23.151388+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-03T02:28:27.057794+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-03T02:28:28.992698+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-03T02:28:29.945944+00:00 heroku[web.1]: Process exited with status 127
+2016-06-03T02:28:29.961428+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-03T08:05:55.943156+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-03T08:05:59.517288+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-03T08:06:01.306574+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-03T08:06:02.178835+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-03T08:06:02.152423+00:00 heroku[web.1]: Process exited with status 127
+2016-06-03T13:50:29.740786+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-03T13:50:34.074772+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-03T13:50:36.626666+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-03T13:50:37.803777+00:00 heroku[web.1]: Process exited with status 127
+2016-06-03T13:50:37.817552+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-03T18:47:24.017475+00:00 heroku[api]: Starting process with command `python` by jason@sustainabilist.com
+2016-06-03T18:47:30.340879+00:00 heroku[run.3895]: Awaiting client
+2016-06-03T18:47:30.388595+00:00 heroku[run.3895]: Starting process with command `python`
+2016-06-03T18:47:30.272316+00:00 heroku[run.3895]: State changed from starting to up
+2016-06-03T18:47:47.231697+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=19d23820-ac4c-4a0c-b50d-be2bfaec9588 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:47:48.750714+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=7d2834dc-0568-4bf6-ad9f-46b60b301e1f fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:47:50.805162+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=0be584ab-7a0c-47eb-bd37-d52bc21df7af fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:47:51.600960+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=644664a3-5d4e-4a32-9c4c-0f30c4d75fe7 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:53:55.658814+00:00 heroku[run.3895]: Process exited with status 0
+2016-06-03T18:53:55.673558+00:00 heroku[run.3895]: State changed from up to complete
+2016-06-03T18:54:11.392008+00:00 heroku[api]: Starting process with command `pip install gunicorn` by jason@sustainabilist.com
+2016-06-03T18:54:15.648007+00:00 heroku[run.5222]: Awaiting client
+2016-06-03T18:54:15.673717+00:00 heroku[run.5222]: Starting process with command `pip install gunicorn`
+2016-06-03T18:54:15.804084+00:00 heroku[run.5222]: State changed from starting to up
+2016-06-03T18:54:17.769148+00:00 heroku[run.5222]: Process exited with status 127
+2016-06-03T18:54:17.786443+00:00 heroku[run.5222]: State changed from up to complete
+2016-06-03T18:56:15.910737+00:00 heroku[api]: Release v7 created by jason@sustainabilist.com
+2016-06-03T18:56:15.910639+00:00 heroku[api]: Set BUILDPACK_URL config vars by jason@sustainabilist.com
+2016-06-03T18:56:16.677187+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-03T18:56:21.013778+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-03T18:56:23.052847+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-03T18:56:23.846718+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-03T18:56:23.847801+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-03T18:56:23.827715+00:00 heroku[web.1]: Process exited with status 127
+2016-06-03T18:56:27.325247+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-03T18:56:29.091176+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-03T18:56:29.885178+00:00 heroku[web.1]: Process exited with status 127
+2016-06-03T18:56:29.862127+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-03T18:56:43.262128+00:00 heroku[api]: Starting process with command `python app.py` by jason@sustainabilist.com
+2016-06-03T18:56:47.494903+00:00 heroku[run.3439]: Awaiting client
+2016-06-03T18:56:47.528720+00:00 heroku[run.3439]: Starting process with command `python app.py`
+2016-06-03T18:56:47.638222+00:00 heroku[run.3439]: State changed from starting to up
+2016-06-03T18:56:49.753955+00:00 heroku[run.3439]: Process exited with status 1
+2016-06-03T18:56:49.767311+00:00 heroku[run.3439]: State changed from up to complete
+2016-06-03T18:56:56.912451+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=09fb25f5-115b-472e-a80e-ab9e0cfd4b05 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:56:58.086500+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=dbe399fe-7919-4eda-bb09-e8788dcc512f fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:57:01.560808+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=0b17ea4f-b7be-4eb8-855b-6b3883c82495 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:57:02.232787+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=c903245b-c164-4fab-9a56-913bc7570a78 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:57:09.779120+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/Jason" host=wordcount-staging-jt.herokuapp.com request_id=0a2bc063-2ca4-4f6c-ae0c-41e540481840 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:57:10.207156+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=4fb64dbe-cd7b-4c6e-a0c3-0f82481ef725 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:57:36.102287+00:00 heroku[api]: Starting process with command `python` by jason@sustainabilist.com
+2016-06-03T18:57:41.443775+00:00 heroku[run.5056]: Awaiting client
+2016-06-03T18:57:41.489444+00:00 heroku[run.5056]: State changed from starting to up
+2016-06-03T18:57:41.474570+00:00 heroku[run.5056]: Starting process with command `python`
+2016-06-03T18:57:49.712691+00:00 heroku[run.5056]: Process exited with status 0
+2016-06-03T18:57:49.720374+00:00 heroku[run.5056]: State changed from up to complete
+2016-06-03T18:59:25.649116+00:00 heroku[api]: Starting process with command `python app.py` by jason@sustainabilist.com
+2016-06-03T18:59:29.376219+00:00 heroku[run.8923]: Starting process with command `python app.py`
+2016-06-03T18:59:29.350943+00:00 heroku[run.8923]: Awaiting client
+2016-06-03T18:59:29.693604+00:00 heroku[run.8923]: State changed from starting to up
+2016-06-03T18:59:31.496116+00:00 heroku[run.8923]: State changed from up to complete
+2016-06-03T18:59:31.453351+00:00 heroku[run.8923]: Process exited with status 1
+2016-06-03T18:59:34.907502+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/Jason" host=wordcount-staging-jt.herokuapp.com request_id=bf8070f5-d1a2-4b8c-9b4e-01ec25b20aa2 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:59:36.080488+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=f1cbd0f1-03ad-4387-af6a-18729b3f2685 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:59:37.537191+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/Jason" host=wordcount-staging-jt.herokuapp.com request_id=a6a679ad-b1dc-43fe-bb5c-5a7f5783071c fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T18:59:38.282364+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=980e4cd5-e85e-4002-9443-e7ff5c58de15 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T19:00:45.717199+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/Jason" host=wordcount-staging-jt.herokuapp.com request_id=161faede-81e4-4bc7-8fe9-1951ee131371 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T19:00:46.499996+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=27743d2c-19e8-47c5-886f-7484642a5e6f fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T19:00:47.933682+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/Jason" host=wordcount-staging-jt.herokuapp.com request_id=0c4763bc-b701-482c-a130-a404006adc5d fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T19:00:48.602751+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=322c8942-9914-448a-9d7b-cfed552c6c32 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T19:00:56.104764+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=20d2526b-8542-4ac1-9246-3f9d5521da66 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T19:00:56.769484+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=b66beb49-8e83-481f-aa41-86994a8f3746 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T19:01:03.072596+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=10c50e78-8fb6-43bb-878b-211a62b9f310 fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T19:01:03.681456+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=5d93362b-7cdc-4c64-8da9-f66adbfeca8e fwd="68.233.194.250" dyno= connect= service= status=503 bytes=
+2016-06-03T19:20:26.167369+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-03T19:20:29.627943+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-03T19:20:31.496549+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-03T19:20:32.542721+00:00 heroku[web.1]: Process exited with status 127
+2016-06-03T19:20:32.575871+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-03T20:04:35.227358+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-03T20:04:39.298910+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-03T20:04:41.547778+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-03T20:04:42.579908+00:00 heroku[web.1]: Process exited with status 127
+2016-06-03T20:04:42.595292+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-03T21:43:30.640147+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-03T21:43:34.958094+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-03T21:43:36.881264+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-03T21:43:37.753924+00:00 heroku[web.1]: Process exited with status 127
+2016-06-03T21:43:37.769663+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-04T00:33:53.612047+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-04T00:33:56.937184+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-04T00:33:58.714460+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-04T00:33:59.441664+00:00 heroku[web.1]: Process exited with status 127
+2016-06-04T00:33:59.468378+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-04T01:59:06.006924+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=55e48c3a-6d1c-4ad7-939c-a4708cdc3a4d fwd="50.150.68.22" dyno= connect= service= status=503 bytes=
+2016-06-04T01:59:13.600936+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=6f9a7228-475f-41c3-8281-42653ccbcb3f fwd="50.150.68.22" dyno= connect= service= status=503 bytes=
+2016-06-04T06:24:06.104598+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-04T06:24:10.159379+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-04T06:24:12.000007+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-04T06:24:12.713038+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-04T06:24:12.698973+00:00 heroku[web.1]: Process exited with status 127
+2016-06-04T12:24:39.872666+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-04T12:24:44.506767+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-04T12:24:46.858926+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-04T12:24:48.018584+00:00 heroku[web.1]: Process exited with status 127
+2016-06-04T12:24:48.040620+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-04T18:09:14.479996+00:00 heroku[web.1]: State changed from crashed to starting
+2016-06-04T18:09:20.135927+00:00 heroku[web.1]: Starting process with command `gunicorn app:app`
+2016-06-04T18:09:22.290788+00:00 app[web.1]: bash: gunicorn: command not found
+2016-06-04T18:09:23.088586+00:00 heroku[web.1]: Process exited with status 127
+2016-06-04T18:09:23.138473+00:00 heroku[web.1]: State changed from starting to crashed
+2016-06-04T20:53:45.459026+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=33b4fa9e-2d42-42dd-946c-9b4c6f7f4756 fwd="50.150.68.22" dyno= connect= service= status=503 bytes=
+2016-06-04T20:53:54.792381+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=794b571f-feb5-47b5-8873-a89cfc8a4f95 fwd="50.150.68.22" dyno= connect= service= status=503 bytes=
+2016-06-04T21:28:20.010210+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=8a067014-9a72-4b42-9f88-ef260ab44e92 fwd="50.150.68.22" dyno= connect= service= status=503 bytes=
+2016-06-04T21:28:21.436475+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=99bdce8b-4ac0-4173-917f-108eb269eee2 fwd="50.150.68.22" dyno= connect= service= status=503 bytes=
+2016-06-04T21:29:53.889973+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/" host=wordcount-staging-jt.herokuapp.com request_id=db09fcf3-3f70-4e5f-b7da-41e6c6f73654 fwd="50.150.68.22" dyno= connect= service= status=503 bytes=
+2016-06-04T21:29:55.136797+00:00 heroku[router]: at=error code=H10 desc="App crashed" method=GET path="/favicon.ico" host=wordcount-staging-jt.herokuapp.com request_id=cd4e4f14-0aac-41ab-bc52-49489f5054ff fwd="50.150.68.22" dyno= connect= service= status=503 bytes=
+2016-06-04T21:32:10.616479+00:00 heroku[api]: Starting process with command `python` by jason@sustainabilist.com
+2016-06-04T21:32:15.087876+00:00 heroku[run.5180]: Starting process with command `python`
+2016-06-04T21:32:15.049035+00:00 heroku[run.5180]: Awaiting client
+2016-06-04T21:32:15.290245+00:00 heroku[run.5180]: State changed from starting to up
+2016-06-04T21:32:31.197348+00:00 heroku[run.5180]: Process exited with status 0
+2016-06-04T21:32:31.220356+00:00 heroku[run.5180]: State changed from up to complete
+2016-06-04T21:32:34.850809+00:00 heroku[api]: Starting process with command `python3` by jason@sustainabilist.com
+2016-06-04T21:32:39.206762+00:00 heroku[run.4708]: Awaiting client
+2016-06-04T21:32:39.233738+00:00 heroku[run.4708]: Starting process with command `python3`
+2016-06-04T21:32:39.405353+00:00 heroku[run.4708]: State changed from starting to up
+2016-06-04T21:38:36.072895+00:00 heroku[run.4708]: State changed from up to complete
+2016-06-04T21:38:36.032448+00:00 heroku[run.4708]: Process exited with status 0
